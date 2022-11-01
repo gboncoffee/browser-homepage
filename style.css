@@ -1,0 +1,73 @@
+:root {
+    /* 
+     * Dark (Catppuccin mocha)
+     */
+    --background: #282a36;
+    --foreground: #ff92df;
+    --green:      #50fa7b;
+    --red:        #ff5555;
+}
+
+body {
+    background: var(--background);
+    color: var(--foreground);
+    text-align: center;
+}
+
+div {
+    position: absolute;
+    left: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+div#date, div#utc {
+    font: normal 14pt monospace;
+    line-height: 0px;
+}
+
+div#clock {
+    height: 16%;
+    top: 10px;
+}
+
+div#date {
+    height: 2%;
+    top: 18%;
+}
+
+div#greet {
+    height: 5%;
+    top: 23%;
+}
+
+div#utc {
+    height: 4%;
+    top: 32%;
+}
+
+div#ping {
+    font: normal 25pt monospace;
+    height: 50%;
+    bottom: 60px;
+}
+
+h1#clock {
+    font: bold 65pt monospace;
+    line-height: 0px;
+}
+
+h2#greet {
+    font: normal 25pt monospace;
+    line-height: 0px;
+}
+
+footer {
+    font: normal 12pt monospace;
+    position: absolute;
+    bottom: 10px;
+    left: 0;
+    right: 0;
+}
